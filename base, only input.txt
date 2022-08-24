@@ -1,0 +1,17 @@
+(base) C:\Users\Heather Patterson>conda create -n ee
+(base) C:\Users\Heather Patterson>conda activate ee
+(ee) C:\Users\Heather Patterson>conda install -c conda-forge geemap
+(ee) C:\Users\Heather Patterson>conda install python=3.9
+(ee) C:\Users\Heather Patterson>conda install -c conda-forge geopandas
+(ee) C:\Users\Heather Patterson>conda install --channel conda-forge geopandas
+(ee) C:\Users\Heather Patterson>conda config --env --add channels conda-forge
+(ee) C:\Users\Heather Patterson>conda config --env --set channel_priority strict
+(ee) C:\Users\Heather Patterson>conda install python=3 geopandas
+(ee) C:\Users\Heather Patterson>earthengine authenticate
+(ee) C:\Users\Heather Patterson>python -c "import ee; ee.Initialize()"
+
+(ee) C:\Users\Heather Patterson>python "C:\Users\Heather Patterson\Downloads\extractLTSFromGEE.py\extractLTSFromGEE.py" -i "C:\Users\Heather Patterson\Documents\ArcGIS\SHP-1-26-2022\C1F1XXXXXXXXXXT1XXXXXXR2XX_3to510to12.shp" -o exported_LTS -s 0 -e 3000 -F C1F1XXXXXXXXXXT1XXXXXXR2XX_3to510to12
+python "C:\Users\Heather Patterson\Downloads\extractLTSFromGEE.py\extractLTSFromGEE.py" -i "C:\Users\Heather Patterson\Documents\ArcGIS\SHP-1-26-2022\C1F1XXXXXXXXXXT1XXXXXXXXR3_3to510to12.shp" -o exported_LTS -s 0 -e 3000 -F C1F1XXXXXXXXXXT1XXXXXXXXR3_3to510to12
+python "C:\Users\Heather Patterson\Downloads\extractLTSFromGEE.py\extractLTSFromGEE.py" -i "C:\Users\Heather Patterson\Documents\ArcGIS\SHP-1-26-2022\C1F1XXXXXXXXXXXXXXXXXXR2XX_10to12.shp" -o exported_LTS -s 0 -e 3000 -F C1F1XXXXXXXXXXXXXXXXXXR2XX_10to12
+python "C:\Users\Heather Patterson\Downloads\extractLTSFromGEE.py\extractLTSFromGEE.py" -i "C:\Users\Heather Patterson\Documents\ArcGIS\SHP-1-26-2022\C1F1XXXXXXXXXXXXXXXXXXXXR3_10to12.shp" -o exported_LTS -s 0 -e 3000 -F C1F1XXXXXXXXXXXXXXXXXXXXR3_10to12
+
